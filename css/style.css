@@ -157,21 +157,23 @@
 .footer {
     width: 100%;
     background-color: rgb(58, 57, 57);
+    padding: 20px 10px;
 }
 
 .footer ul {
     list-style: none;
+    text-align: center;
+    line-height: 30px;
 }
 
-.footer-link {
-    display: inline-block;
-}
-
-.footer-link2 {
-    display: inline-block;
+.footer li {
+    display: inline;
 }
 
 .footer ul li a {
     color: #fff;
     text-decoration: none;
+    padding-right: 10px;
+    font-size: 1.2em;
+    font-family: sans-serif;
 }
